@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WebView</string>
+    <string name="key_placeholder">enter url here</string>
+    <string name="load_url_button_label">load</string>
+    <string name="home_page_url">https://appassets.gtfo.bar/assets/www/index.html</string>
+    <string name="assets_dummy_domain">appassets.gtfo.bar</string>
+    <string name="error_safebrowsing_text">Google Safe Browsing is not initialized yet</string>
+    <string name="trusted_host">gtfo.bar</string>
+</resources>

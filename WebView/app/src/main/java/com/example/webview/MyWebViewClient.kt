@@ -2,6 +2,7 @@ package com.example.webview
 
 import android.content.Context
 import android.net.Uri
+import android.util.Log
 import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.webkit.WebView
@@ -45,9 +46,14 @@ class MyWebViewClient(private val activity: MainActivity,
         view: WebView?,
         request: WebResourceRequest
     ): WebResourceResponse? {
-        if (sm.isUrlValid(request.url, contentWhitelist))
-            return assetLoader.shouldInterceptRequest(request.url)
-        return specialResponse
+        if (sm.isUrlValid(request.url, contentWhitelist)) {
+            Log.d("ZALUPA shouldInterceptRequest", request.url.toString() + " - good URL")
+            // return assetLoader.shouldInterceptRequest(request.url)
+        } else {
+            Log.d("ZALUPA shouldInterceptRequest", request.url.toString() + " - bad URL")
+        }
+        return assetLoader.shouldInterceptRequest(request.url)
+        // return specialResponse
     }
 
     override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest): Boolean {
@@ -56,8 +62,12 @@ class MyWebViewClient(private val activity: MainActivity,
         if (sm.isUrlValid(request.url, contentWhitelist)) {
             val url = Uri.parse(activity.webView.url)
             activity.jsInterface.url = url
-            return super.shouldOverrideUrlLoading(view, request)
+            Log.i("ZALUPA shouldOverrideUrlLoading", request.url.toString() + " - good URL")
+            // return super.shouldOverrideUrlLoading(view, request)
+        } else {
+            Log.i("ZALUPA shouldOverrideUrlLoading", request.url.toString() + " - bad URL")
         }
-        return true
+        return super.shouldOverrideUrlLoading(view, request)
+        // return true
     }
 }

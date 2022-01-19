@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html>
 <body>
-<a href="https://appassets.gtfo.bar/assets/www/integrity_check.html">script integrity check</a><br>
-<a href="https://testsafebrowsing.appspot.com/s/phishing.html">Google Safe Browsing phishing</a><br>
-<a href="https://google.com">google</a><br>
-<a href="https://appassets.gtfo.bar/assets/www/javascript_interface.html">JavascriptInterface</a><br>
 
+    <script src="//code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="script.js"></script>
+
+
+    <a href="https://appassets.gtfo.bar/assets/www/integrity_check.html">script integrity check</a><br>
+    <a href="https://testsafebrowsing.appspot.com/s/phishing.html">Google Safe Browsing phishing</a><br>
+    <a href="https://google.com">google</a><br>
+    <a href="https://appassets.gtfo.bar/assets/www/javascript_interface.html">JavascriptInterface</a><br>
+
+    <br>
+    <button onclick='xhrGET("xhr_get")'>xhrGET</button>
+    <div id="xhr_get">xhrGET not called</div>
+    <br>
+
+    <br>
+    <button onclick='xhrPOST("xhr_post")'>xhrPOST</button>
+    <div id="xhr_post">xhrPOST not called</div>
+    <br>
+
+    <br>
+    <button onclick='xhrDELETE("xhr_delete")'>xhrDELETE</button>
+    <div id="xhr_delete">xhrDELETE not called</div>
+    <br>
+
+    <br>
+    <button onclick='wsOpen("ws_open")'>wsOpen</button>
+    <div id="ws_open">wsOpen not called</div>
+    <br>
+
+    <img src="https://images.unsplash.com/photo-1591871937573-74dbba515c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80">
+
+    <iframe src="https://google.com"></iframe>
+
+    <button onclick="location=javascript:alert(5)">Press to go to javascript:alert(5)</button>
+
+    <div>List of URLs which should appear in logs:</div>
+    <ul>
+        <li>http://192.168.0.113:12347/?q=&lt;int&gt; <-- from xhr request</li>
+        <li>https://code.jquery.com/jquery-3.6.0.slim.min.js <-- loaded via script tag</li>
+        <li>https://images.unsplash.com/photo-1591871937573-74dbba515c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80 <-- loaded via image tag</li>
+        <li>https://google.com <-- loaded via iframe tag</li>
+        <li>javascript:alert(5) <-- from javascript</li>
+    </ul>
 </body>
 </html>

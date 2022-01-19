@@ -15,6 +15,8 @@ import android.content.Intent
 import android.content.Intent.getIntent
 
 import android.app.Activity
+import android.webkit.WebSettings
+import android.webkit.WebSettings.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -63,6 +65,8 @@ class MainActivity : AppCompatActivity() {
 
         webView.settings.allowContentAccess = true
 
+        webView.settings.mixedContentMode = MIXED_CONTENT_ALWAYS_ALLOW;
+
         // SEEMS LIKE GOOGLE SAFE BROWSING NOT WORKING AS EXPECTED. STEPS TO REPRODUCE:
         // 1. Take any link from here https://testsafebrowsing.appspot.com/
         // 2. Try to load it in webView
@@ -87,8 +91,9 @@ class MainActivity : AppCompatActivity() {
         // webView.loadUrl("file:///data/local/tmp/outer.html")
         // webView.loadUrl("content://sms/inbox")
         // webView.loadUrl("file:///data/data/com.example.webview/shared_prefs/WebViewChromiumPrefs.xml")
-        webView.loadUrl("file:///system/etc/hosts")
+        webView.loadUrl("https://" + getString(R.string.assets_dummy_domain) +"/assets/www/index.html")
 
+        /*
         // TODO: check how it works
         val url = "https://attacker.com\\\\@legitimate.com"
         Uri.parse(url).host?.let { Log.d("evil", it) }
@@ -102,13 +107,14 @@ class MainActivity : AppCompatActivity() {
             webView.loadUrl(uri.toString());
         }
         // mitigation
-        val uri = Uri.parse(intent.data.toString())
+        // val uri = Uri.parse(intent.data.toString())
 
         // TODO: check how it works
         webView.loadDataWithBaseURL("https://google.com/",
             "<script>document.write(document.domain)</script>",
             null, null, null);
 
+    */
 
         loadUrlButton.setOnClickListener {
             webView.loadUrl(urlEditText.text.toString())

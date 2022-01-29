@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11CF2709279826D1001B3AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF2708279826D1001B3AFC /* AppDelegate.swift */; };
-		11CF270B279826D1001B3AFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF270A279826D1001B3AFC /* SceneDelegate.swift */; };
-		11CF270D279826D1001B3AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CF270C279826D1001B3AFC /* ViewController.swift */; };
-		11CF2710279826D1001B3AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CF270E279826D1001B3AFC /* Main.storyboard */; };
-		11CF2712279826D6001B3AFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CF2711279826D6001B3AFC /* Assets.xcassets */; };
-		11CF2715279826D6001B3AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CF2713279826D6001B3AFC /* LaunchScreen.storyboard */; };
+		11062CED27A5BA6200A4508B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11062CEC27A5BA6200A4508B /* AppDelegate.swift */; };
+		11062CEF27A5BA6200A4508B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11062CEE27A5BA6200A4508B /* SceneDelegate.swift */; };
+		11062CF127A5BA6200A4508B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11062CF027A5BA6200A4508B /* ViewController.swift */; };
+		11062CF427A5BA6200A4508B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11062CF227A5BA6200A4508B /* Main.storyboard */; };
+		11062CF627A5BA6400A4508B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11062CF527A5BA6400A4508B /* Assets.xcassets */; };
+		11062CF927A5BA6400A4508B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11062CF727A5BA6400A4508B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11CF2705279826D1001B3AFC /* WebView SSLPinning via ATS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebView SSLPinning via ATS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11CF2708279826D1001B3AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11CF270A279826D1001B3AFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11CF270C279826D1001B3AFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11CF270F279826D1001B3AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		11CF2711279826D6001B3AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11CF2714279826D6001B3AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		11CF2716279826D6001B3AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11062CE927A5BA6200A4508B /* WKWebView SSL Pinning via ATS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKWebView SSL Pinning via ATS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11062CEC27A5BA6200A4508B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11062CEE27A5BA6200A4508B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11062CF027A5BA6200A4508B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11062CF327A5BA6200A4508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11062CF527A5BA6400A4508B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11062CF827A5BA6400A4508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11062CFA27A5BA6400A4508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		11CF2702279826D1001B3AFC /* Frameworks */ = {
+		11062CE627A5BA6200A4508B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11CF26FC279826D1001B3AFC = {
+		11062CE027A5BA6200A4508B = {
 			isa = PBXGroup;
 			children = (
-				11CF2707279826D1001B3AFC /* WebView SSLPinning via ATS */,
-				11CF2706279826D1001B3AFC /* Products */,
+				11062CEB27A5BA6200A4508B /* WKWebView SSL Pinning via ATS */,
+				11062CEA27A5BA6200A4508B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		11CF2706279826D1001B3AFC /* Products */ = {
+		11062CEA27A5BA6200A4508B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11CF2705279826D1001B3AFC /* WebView SSLPinning via ATS.app */,
+				11062CE927A5BA6200A4508B /* WKWebView SSL Pinning via ATS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11CF2707279826D1001B3AFC /* WebView SSLPinning via ATS */ = {
+		11062CEB27A5BA6200A4508B /* WKWebView SSL Pinning via ATS */ = {
 			isa = PBXGroup;
 			children = (
-				11CF2708279826D1001B3AFC /* AppDelegate.swift */,
-				11CF270A279826D1001B3AFC /* SceneDelegate.swift */,
-				11CF270C279826D1001B3AFC /* ViewController.swift */,
-				11CF270E279826D1001B3AFC /* Main.storyboard */,
-				11CF2711279826D6001B3AFC /* Assets.xcassets */,
-				11CF2713279826D6001B3AFC /* LaunchScreen.storyboard */,
-				11CF2716279826D6001B3AFC /* Info.plist */,
+				11062CEC27A5BA6200A4508B /* AppDelegate.swift */,
+				11062CEE27A5BA6200A4508B /* SceneDelegate.swift */,
+				11062CF027A5BA6200A4508B /* ViewController.swift */,
+				11062CF227A5BA6200A4508B /* Main.storyboard */,
+				11062CF527A5BA6400A4508B /* Assets.xcassets */,
+				11062CF727A5BA6400A4508B /* LaunchScreen.storyboard */,
+				11062CFA27A5BA6400A4508B /* Info.plist */,
 			);
-			path = "WebView SSLPinning via ATS";
+			path = "WKWebView SSL Pinning via ATS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11CF2704279826D1001B3AFC /* WebView SSLPinning via ATS */ = {
+		11062CE827A5BA6200A4508B /* WKWebView SSL Pinning via ATS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11CF2719279826D6001B3AFC /* Build configuration list for PBXNativeTarget "WebView SSLPinning via ATS" */;
+			buildConfigurationList = 11062CFD27A5BA6400A4508B /* Build configuration list for PBXNativeTarget "WKWebView SSL Pinning via ATS" */;
 			buildPhases = (
-				11CF2701279826D1001B3AFC /* Sources */,
-				11CF2702279826D1001B3AFC /* Frameworks */,
-				11CF2703279826D1001B3AFC /* Resources */,
+				11062CE527A5BA6200A4508B /* Sources */,
+				11062CE627A5BA6200A4508B /* Frameworks */,
+				11062CE727A5BA6200A4508B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WebView SSLPinning via ATS";
-			productName = "WebView SSLPinning via ATS";
-			productReference = 11CF2705279826D1001B3AFC /* WebView SSLPinning via ATS.app */;
+			name = "WKWebView SSL Pinning via ATS";
+			productName = "WKWebView SSL Pinning via ATS";
+			productReference = 11062CE927A5BA6200A4508B /* WKWebView SSL Pinning via ATS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		11CF26FD279826D1001B3AFC /* Project object */ = {
+		11062CE127A5BA6200A4508B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					11CF2704279826D1001B3AFC = {
+					11062CE827A5BA6200A4508B = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 11CF2700279826D1001B3AFC /* Build configuration list for PBXProject "WebView SSLPinning via ATS" */;
+			buildConfigurationList = 11062CE427A5BA6200A4508B /* Build configuration list for PBXProject "WKWebView SSL Pinning via ATS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 11CF26FC279826D1001B3AFC;
-			productRefGroup = 11CF2706279826D1001B3AFC /* Products */;
+			mainGroup = 11062CE027A5BA6200A4508B;
+			productRefGroup = 11062CEA27A5BA6200A4508B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11CF2704279826D1001B3AFC /* WebView SSLPinning via ATS */,
+				11062CE827A5BA6200A4508B /* WKWebView SSL Pinning via ATS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		11CF2703279826D1001B3AFC /* Resources */ = {
+		11062CE727A5BA6200A4508B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CF2715279826D6001B3AFC /* LaunchScreen.storyboard in Resources */,
-				11CF2712279826D6001B3AFC /* Assets.xcassets in Resources */,
-				11CF2710279826D1001B3AFC /* Main.storyboard in Resources */,
+				11062CF927A5BA6400A4508B /* LaunchScreen.storyboard in Resources */,
+				11062CF627A5BA6400A4508B /* Assets.xcassets in Resources */,
+				11062CF427A5BA6200A4508B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		11CF2701279826D1001B3AFC /* Sources */ = {
+		11062CE527A5BA6200A4508B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11CF270D279826D1001B3AFC /* ViewController.swift in Sources */,
-				11CF2709279826D1001B3AFC /* AppDelegate.swift in Sources */,
-				11CF270B279826D1001B3AFC /* SceneDelegate.swift in Sources */,
+				11062CF127A5BA6200A4508B /* ViewController.swift in Sources */,
+				11062CED27A5BA6200A4508B /* AppDelegate.swift in Sources */,
+				11062CEF27A5BA6200A4508B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11CF270E279826D1001B3AFC /* Main.storyboard */ = {
+		11062CF227A5BA6200A4508B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11CF270F279826D1001B3AFC /* Base */,
+				11062CF327A5BA6200A4508B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		11CF2713279826D6001B3AFC /* LaunchScreen.storyboard */ = {
+		11062CF727A5BA6400A4508B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				11CF2714279826D6001B3AFC /* Base */,
+				11062CF827A5BA6400A4508B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		11CF2717279826D6001B3AFC /* Debug */ = {
+		11062CFB27A5BA6400A4508B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		11CF2718279826D6001B3AFC /* Release */ = {
+		11062CFC27A5BA6400A4508B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,38 +281,36 @@
 			};
 			name = Release;
 		};
-		11CF271A279826D6001B3AFC /* Debug */ = {
+		11062CFE27A5BA6400A4508B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WebView SSLPinning via ATS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = "WKWebView SSL Pinning via ATS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gtfobar.WebView-SSLPinning-via-ATS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gtfobar.WKWebView-SSL-Pinning-via-ATS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		11CF271B279826D6001B3AFC /* Release */ = {
+		11062CFF27A5BA6400A4508B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "WebView SSLPinning via ATS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				INFOPLIST_FILE = "WKWebView SSL Pinning via ATS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gtfobar.WebView-SSLPinning-via-ATS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gtfobar.WKWebView-SSL-Pinning-via-ATS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11CF2700279826D1001B3AFC /* Build configuration list for PBXProject "WebView SSLPinning via ATS" */ = {
+		11062CE427A5BA6200A4508B /* Build configuration list for PBXProject "WKWebView SSL Pinning via ATS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11CF2717279826D6001B3AFC /* Debug */,
-				11CF2718279826D6001B3AFC /* Release */,
+				11062CFB27A5BA6400A4508B /* Debug */,
+				11062CFC27A5BA6400A4508B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11CF2719279826D6001B3AFC /* Build configuration list for PBXNativeTarget "WebView SSLPinning via ATS" */ = {
+		11062CFD27A5BA6400A4508B /* Build configuration list for PBXNativeTarget "WKWebView SSL Pinning via ATS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11CF271A279826D6001B3AFC /* Debug */,
-				11CF271B279826D6001B3AFC /* Release */,
+				11062CFE27A5BA6400A4508B /* Debug */,
+				11062CFF27A5BA6400A4508B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 11CF26FD279826D1001B3AFC /* Project object */;
+	rootObject = 11062CE127A5BA6200A4508B /* Project object */;
 }

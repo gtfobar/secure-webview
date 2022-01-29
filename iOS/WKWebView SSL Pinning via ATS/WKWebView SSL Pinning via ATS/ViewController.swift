@@ -1,9 +1,8 @@
 //
-//  WebViewController.swift
-//  WebView SSLPinning via ATS
+//  ViewController.swift
+//  WKWebView SSL Pinning via ATS
 //
-//  Created by alexander on 1/19/22.
-//
+//  Created by alexander on 1/29/22.
 //
 
 import UIKit
@@ -61,4 +60,3 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     pinnedWebView.load(myRequest)
     }
 }
-

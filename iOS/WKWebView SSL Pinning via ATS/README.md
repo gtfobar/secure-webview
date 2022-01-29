@@ -7,7 +7,7 @@ This application demonstrates that SSL pinning via `NSPinnedDomains` attribute i
 
 SSL pinning is configured for `github.com` in Info.plist. For additional details see [NSAppTransportSecurity](https://developer.apple.com/documentation/bundleresources/information_property_list/nsapptransportsecurity).
 
-First it loads `https://github.com` using `NSUrlDomains` and dumps the response to console. Then it loads `github.com` into `WKWebView`.
+First it loads `https://github.com` using `NSUrlDomains` and dumps the response to console. Then it loads `https://github.com` into `WKWebView`.
 
 # Usage
 

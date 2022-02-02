@@ -27,7 +27,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         // Нас интересует аутентификация типа NSURLAuthenticationMethodServerTrust - проверка сертификата сервера.
         if (challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodServerTrust) {
             
-            // Поле challenge.protectionSpace.serverTrust содержит информацию о состоянии текущей SSL-транзакции
+            // Поле challenge.protectionSpace.serverTrust содержит информацию о состоянии текущей SSL-транзакции.
             if let serverTrust = challenge.protectionSpace.serverTrust {
                 
                 // Метод SecTrustGetCertificateAtIndex(...) возвращает сертификат из цепочки сертификатов сервера с заданным индексом.
@@ -37,14 +37,13 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
                     let size = CFDataGetLength(serverCertificateData);
                     let cert1 = NSData(bytes: data, length: size)
                     
-                    // Извлекаем предустановленный в App Bundle приложения сертификат из файла "cert.der"
+                    // Извлекаем предустановленный в App Bundle приложения сертификат из файла "cert.der".
                     let file_der = Bundle.main.path(forResource: "cert", ofType: "der")
                     if let file = file_der {
                         if let cert2 = NSData(contentsOfFile: file) {
                             if cert1.isEqual(to: cert2 as Data) {
                                 
-                                // Вызов метод completionHandler(...) оповещает систему о том, что сертификат прошел проверку.
-                                // Вызываем его, если сертификат сервера совпадает с сертификатом в "cert.der"
+                                // Вызов метод completionHandler(...) оповещает систему о том, что сертификат сервера успешно прошел проверку.
                                 completionHandler(URLSession.AuthChallengeDisposition.useCredential, URLCredential(trust:serverTrust))
                                 return
                             }

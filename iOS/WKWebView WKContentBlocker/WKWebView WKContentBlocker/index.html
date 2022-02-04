@@ -1,0 +1,27 @@
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://bestbooks.pythonanywhere.com/static/scripts/append_message.js?q=huuui"></script>
+<p>
+<img src="https://bestbooks.pythonanywhere.com/static/images/kitten.jpg" alt="image not loading">
+</p>
+
+<p>
+<img src="https://en.wikipedia.org/wiki/File:Juvenile_Ragdoll.jpg" alt="image from wikipedia not loading">
+</p>
+    
+<p>
+<div id="xhr">XHR not working</div>
+<p>
+
+<p>
+<div id="script">script not loading</div>
+</p>
+
+<script>
+    $.get("https://bestbooks.pythonanywhere.com/?q=zalupa", function(data) {
+            $("#xhr").html(data);
+        });
+</script>
+
+<a href="https://bestbooks.pythonanywhere.com.pythonanywhere.com">link</a>

@@ -1,0 +1,18 @@
+[
+    {
+        "trigger": {
+            "url-filter": "https://malicious-server\\.com/.*",
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".*"
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+]

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1120FEB227AA76F5005014C1 /* ViewController_CleanedForDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120FEB127AA76F5005014C1 /* ViewController_CleanedForDoc.swift */; };
 		114AF6ED27A5C7A8004674FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114AF6EC27A5C7A8004674FB /* AppDelegate.swift */; };
 		114AF6EF27A5C7A8004674FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114AF6EE27A5C7A8004674FB /* SceneDelegate.swift */; };
 		114AF6F127A5C7A8004674FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114AF6F027A5C7A8004674FB /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1120FEB127AA76F5005014C1 /* ViewController_CleanedForDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController_CleanedForDoc.swift; sourceTree = "<group>"; };
 		114AF6E927A5C7A8004674FB /* WKWebView SSL Pinning via WKNavigationDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKWebView SSL Pinning via WKNavigationDelegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		114AF6EC27A5C7A8004674FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		114AF6EE27A5C7A8004674FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		114AF6EB27A5C7A8004674FB /* WKWebView SSL Pinning  via WKNavigationDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				1120FEB127AA76F5005014C1 /* ViewController_CleanedForDoc.swift */,
 				114AF70427A5CA17004674FB /* github.com.der */,
 				114AF6EC27A5C7A8004674FB /* AppDelegate.swift */,
 				114AF6EE27A5C7A8004674FB /* SceneDelegate.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1120FEB227AA76F5005014C1 /* ViewController_CleanedForDoc.swift in Sources */,
 				114AF6F127A5C7A8004674FB /* ViewController.swift in Sources */,
 				114AF6ED27A5C7A8004674FB /* AppDelegate.swift in Sources */,
 				114AF6EF27A5C7A8004674FB /* SceneDelegate.swift in Sources */,

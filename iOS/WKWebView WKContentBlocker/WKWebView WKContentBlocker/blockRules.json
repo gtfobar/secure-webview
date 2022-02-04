@@ -1,0 +1,35 @@
+[
+    {
+        "trigger": {
+            "url-filter": ".*"
+        },
+        "action": {
+            "type": "block"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": ".*",
+            "unless-domain": ["en.wikipedia.org"]
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "file://.*"
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    },
+    {
+        "trigger": {
+            "url-filter": "https?://code\\.jquery\\.com/.*"
+        },
+        "action": {
+            "type": "ignore-previous-rules"
+        }
+    }
+]
